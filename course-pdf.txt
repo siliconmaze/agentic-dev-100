@@ -1,0 +1,6 @@
+PDF generated: agentic-dev-100-v2.pdf (3.3 KB)
+
+Email NOT sent due to gog auth failure.
+
+To send manually:
+gog gmail send --to steve@alpacamango.com --subject 'Agentic-Dev-100 v2 PDF' --body 'PDF attached' --attach agentic-dev-100-v2.pdf

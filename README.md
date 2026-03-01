@@ -1,50 +1,58 @@
-# Agentic Dev 100
+# Agentic Development 100 Course
 
-Hands-on course for building agentic AI systems using OpenClaw.
+A comprehensive hands-on course for building intelligent agents with OpenClaw and Ollama.
 
-## Course Overview
+## Course Structure
 
-Build production-ready agentic AI systems from scratch.
+### Module 1: Foundations
+- **Lab 1**: Your First Agent with OpenClaw + Ollama
+- **Lab 2**: Tool Integration Basics  
+- **Lab 3**: Memory & Context
 
-### Modules
+### Module 2: Multi-Agent Patterns
+- **Lab 4**: ReAct Agents
+- **Lab 5**: Round-Robin Communication
+- **Lab 6**: Deliberative Agents
 
-1. **Foundations** - Your first agent, tools, memory
-2. **Multi-Agent** - ReAct, round-robin, deliberative
-3. **Advanced** - Vector memory, security, evaluation
-4. **Real-World** - Customer service, deployment, capstone
+### Module 3: Advanced Topics
+- **Lab 7**: Vector Store (ChromaDB)
+- **Lab 8**: Security Oversight
+- **Lab 9**: Evaluation & Robustness
 
-## Quick Start
+### Module 4: Real-World Applications
+- **Lab 10**: Customer Service Agent
+- **Lab 11**: Docker/K3s Deployment
+- **Lab 12**: Capstone Project
 
+## Getting Started
+
+### Prerequisites
+- Python 3.8+
+- Ollama (https://ollama.ai)
+- Git (recommended)
+- Basic Python knowledge
+
+### Setup
 ```bash
-# Clone and start
-git clone git@github.com:siliconmaze/agentic-dev-100.git
+# Clone repository
+git clone <repository-url>
 cd agentic-dev-100
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Pull Ollama model
+ollama pull llama3.2:3b
+
+# Start with Lab 1
+cd labs
 ```
 
-## Labs
+## Course Philosophy
+Hands-on, project-based learning. Each lab builds on previous concepts, culminating in a comprehensive capstone project.
 
-| Lab | Topic | Technology |
-|-----|-------|------------|
-| 1 | First Agent | OpenClaw + Ollama |
-| 2 | Tool Integration | OpenClaw tools |
-| 3 | Memory & Context | In-context + file |
-| 4 | ReAct Agents | Reasoning loops |
-| 5 | Round-Robin | Multi-agent |
-| 6 | Deliberative | LangGraph-style |
-| 7 | Vector Store | ChromaDB |
-| 8 | Security | Guardrails |
-| 9 | Evaluation | Robustness testing |
-| 10 | Customer Service | Real app |
-| 11 | Cloud Deploy | Docker/K3s |
-| 12 | Capstone | Full project |
+## License
+Educational use. See LICENSE for details.
 
-## Differentiators
-
-- Open-source only
-- Self-host with OpenClaw
-- Local-first (no AWS)
-- Docker/K3s deployment
-
----
-
-*Course created: 2026-02-25*
+## Support
+For issues, check troubleshooting sections in each lab or open an issue.
